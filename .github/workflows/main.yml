@@ -145,7 +145,7 @@ jobs:
           start: yarn start:ci
           wait-on: "http://localhost:3000"
           wait-on-timeout: 120
-          browser: firefox
+          browser: edge
           spec: cypress/tests/ui/*
         env:
           # Recommended: pass the GitHub token lets this action correctly
